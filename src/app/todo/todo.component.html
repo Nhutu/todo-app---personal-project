@@ -1,0 +1,5 @@
+<div>
+    <input type="checkbox" [checked]="todo.isChecked" (click)="todoDone()" /><div></div>
+</div>
+<p class="todo__text">{{ todo.text }}</p>
+<button (click)="deleteTodo()" class="delete-todo">Supprimer</button>
